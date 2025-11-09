@@ -30,7 +30,7 @@ const Terms = () => {
             <section>
               <h2 className="text-2xl font-bold text-foreground mb-4">1. Acceptance of Terms</h2>
               <p>
-                By registering for RVITM CubeVerse 2025, you agree to share information entered on this page with RCA Speedcubing, RVITM Cubing Association, and the World Cube Association (WCA). You acknowledge that you have read, understood, and agree to be bound by these terms and conditions.
+                By registering for RVITM CubeVerse 2025, you agree to share information entered on this page with RCA, RVITM Cubing Association, and the World Cube Association (WCA). You acknowledge that you have read, understood, and agree to be bound by these terms and conditions.
               </p>
             </section>
 
@@ -71,7 +71,7 @@ const Terms = () => {
             <section>
               <h2 className="text-2xl font-bold text-foreground mb-4">5. Liability</h2>
               <p>
-                RCA Speedcubing, RVITM Cubing Association, and the event organizers are not liable for any injury, loss, or damage to persons or property during the competition. Participants attend at their own risk.
+                RCA, RVITM Cubing Association, and the event organizers are not liable for any injury, loss, or damage to persons or property during the competition. Participants attend at their own risk.
               </p>
             </section>
 

@@ -106,7 +106,7 @@ The `dist` folder contains all static files needed for deployment. You can deplo
 
 ## 📝 License
 
-© 2025 RCA Speedcubing. All rights reserved.
+© 2025 RCA. All rights reserved.
 
 ## 👥 Organizers
 

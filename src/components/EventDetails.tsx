@@ -96,7 +96,7 @@ const EventDetails = () => {
           <div className="bg-card p-6 rounded-lg shadow-card">
             <h3 className="font-bold text-xl mb-4">Organizers</h3>
             <p className="text-muted-foreground mb-4">
-              CubeX RVCE, RVITM Cubing Association, and Speed Cubing Bangalore
+               RVITM Cubing Association, CubeX RVCE, and Speed Cubing Bangalore
             </p>
             <p className="text-sm text-muted-foreground">
               <span className="font-semibold">WCA Delegate:</span> Sukesh Kumar

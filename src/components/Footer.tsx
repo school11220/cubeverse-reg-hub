@@ -12,8 +12,8 @@ const Footer = () => {
           <div className="grid md:grid-cols-4 gap-8 mb-8">
             <div>
               <div className="flex items-center gap-3 mb-4">
-                <img src={rcaLogo} alt="RCA Speedcubing" className="h-12 w-12" />
-                <span className="font-bold text-lg text-foreground">RCA Speedcubing</span>
+                <img src={rcaLogo} alt="RCA" className="h-12 w-12" />
+                <span className="font-bold text-lg text-foreground">RCA</span>
               </div>
               <p className="text-sm text-muted-foreground">
                 Organizing official WCA speedcubing competitions across India
@@ -109,8 +109,8 @@ const Footer = () => {
               </div>
               <div className="mt-6 text-sm text-muted-foreground">
                 <p className="font-semibold text-foreground mb-2">Organizers:</p>
-                <p>CubeX RVCE</p>
                 <p>RVITM Cubing Association</p>
+                <p>CubeX RVCE</p>
                 <p>Speed Cubing Bangalore</p>
               </div>
             </div>
@@ -118,7 +118,7 @@ const Footer = () => {
 
           <div className="border-t border-border pt-8 text-center">
             <p className="text-sm text-muted-foreground">
-              © {currentYear} RCA Speedcubing. All rights reserved. | RVITM CubeVerse 2025
+              © {currentYear} RCA. All rights reserved. | RVITM CubeVerse 2025
             </p>
             <p className="text-xs text-muted-foreground mt-2">
               This is an official World Cube Association competition

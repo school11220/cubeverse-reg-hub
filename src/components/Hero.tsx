@@ -14,6 +14,15 @@ const Hero = () => {
             Official World Cube Association Competition
           </p>
 
+          {/* Event Poster */}
+          <div className="my-8">
+            <img 
+              src="/cubeverse.png" 
+              alt="CubeVerse 2025 Event Poster" 
+              className="mx-auto rounded-lg shadow-2xl max-w-full md:max-w-2xl hover:scale-105 transition-transform duration-300"
+            />
+          </div>
+
           <div className="flex flex-col md:flex-row items-center justify-center gap-6 text-lg">
             <div className="flex items-center gap-2">
               <Calendar className="w-6 h-6" />
@@ -22,7 +31,7 @@ const Hero = () => {
             <div className="hidden md:block w-px h-6 bg-primary-foreground/30" />
             <div className="flex items-center gap-2">
               <MapPin className="w-6 h-6" />
-              <span>RV Institute of Technology, Bengaluru</span>
+              <span>RV Institute of Technology and Management, Bengaluru</span>
             </div>
           </div>
 

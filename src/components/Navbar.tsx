@@ -42,8 +42,8 @@ const Navbar = () => {
             onClick={() => scrollToSection("home")}
             className="flex items-center gap-3 hover:opacity-80 transition-smooth"
           >
-            <img src={rcaLogo} alt="RCA Speedcubing" className="h-12 w-12" />
-            <span className="font-bold text-lg text-primary">RCA Speedcubing</span>
+            <img src={rcaLogo} alt="RCA" className="h-12 w-12" />
+            <span className="font-bold text-lg text-primary">RCA</span>
           </button>
 
           {/* Desktop Navigation */}
