@@ -91,7 +91,7 @@ const Footer = () => {
 
             <div>
               <h3 className="font-bold text-lg mb-4 text-foreground">Contact Us</h3>
-              <div className="space-y-3 text-sm">
+              <div className="space-y-3 text-sm mb-4">
                 <a
                   href="mailto:cubing_rca.rvitm@rvei.edu.in"
                   className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-smooth"
@@ -107,6 +107,12 @@ const Footer = () => {
                   +91-8073294215
                 </a>
               </div>
+              <Link
+                to="/contact"
+                className="inline-block text-sm font-medium text-primary hover:underline mb-4"
+              >
+                View Full Contact Page →
+              </Link>
               <div className="mt-6 text-sm text-muted-foreground">
                 <p className="font-semibold text-foreground mb-2">Organizers:</p>
                 <p>RVITM Cubing Association</p>
