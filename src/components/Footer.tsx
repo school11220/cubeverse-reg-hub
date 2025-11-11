@@ -6,14 +6,14 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer id="contact" className="bg-card border-t border-border py-12">
+    <footer id="contact" className="bg-neutral-950 border-t border-border py-12 font-Main">
       <div className="container mx-auto px-4">
         <div className="max-w-6xl mx-auto">
           <div className="grid md:grid-cols-4 gap-8 mb-8">
             <div>
               <div className="flex items-center gap-3 mb-4">
                 <img src={rcaLogo} alt="RCA" className="h-12 w-12" />
-                <span className="font-bold text-lg text-foreground">RCA</span>
+                <span className="font-bold text-lg text-neutral-200">RCA</span>
               </div>
               <p className="text-sm text-muted-foreground">
                 Organizing official WCA speedcubing competitions across India
@@ -28,7 +28,7 @@ const Footer = () => {
                     href="https://www.worldcubeassociation.org/competitions/RVITMCubeVerse2025"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-muted-foreground hover:text-primary inline-flex items-center gap-1 transition-smooth"
+                    className="text-muted-foreground hover:text-rose-600 inline-flex items-center gap-1 transition-smooth"
                   >
                     WCA Competition Page
                     <ExternalLink className="w-3 h-3" />
@@ -39,7 +39,7 @@ const Footer = () => {
                     href="https://www.worldcubeassociation.org/regulations/"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-muted-foreground hover:text-primary inline-flex items-center gap-1 transition-smooth"
+                    className="text-muted-foreground hover:text-lime-600 inline-flex items-center gap-1 transition-smooth"
                   >
                     WCA Regulations
                     <ExternalLink className="w-3 h-3" />
@@ -50,7 +50,7 @@ const Footer = () => {
                     href="https://pages.razorpay.com/pl_RZIOpv3dXxZ0Eg/view"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-muted-foreground hover:text-primary inline-flex items-center gap-1 transition-smooth"
+                    className="text-muted-foreground hover:text-cyan-600 inline-flex items-center gap-1 transition-smooth"
                   >
                     Payment Page
                     <ExternalLink className="w-3 h-3" />
@@ -65,7 +65,7 @@ const Footer = () => {
                 <li>
                   <Link
                     to="/terms"
-                    className="text-muted-foreground hover:text-primary transition-smooth"
+                    className="text-muted-foreground hover:text-lime-600 transition-smooth"
                   >
                     Terms & Conditions
                   </Link>
@@ -73,7 +73,7 @@ const Footer = () => {
                 <li>
                   <Link
                     to="/privacy"
-                    className="text-muted-foreground hover:text-primary transition-smooth"
+                    className="text-muted-foreground hover:text-rose-600 transition-smooth"
                   >
                     Privacy Policy
                   </Link>
@@ -81,7 +81,7 @@ const Footer = () => {
                 <li>
                   <Link
                     to="/refund"
-                    className="text-muted-foreground hover:text-primary transition-smooth"
+                    className="text-muted-foreground hover:text-cyan-600 transition-smooth"
                   >
                     Refund & Cancellation
                   </Link>
@@ -94,14 +94,14 @@ const Footer = () => {
               <div className="space-y-3 text-sm mb-4">
                 <a
                   href="mailto:cubing_rca.rvitm@rvei.edu.in"
-                  className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-smooth"
+                  className="flex items-center gap-2 text-muted-foreground hover:text-rose-600 transition-smooth"
                 >
                   <Mail className="w-4 h-4" />
                   cubing_rca.rvitm@rvei.edu.in
                 </a>
                 <a
                   href="tel:+918073294215"
-                  className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-smooth"
+                  className="flex items-center gap-2 text-muted-foreground hover:text-lime-600 transition-smooth"
                 >
                   <Phone className="w-4 h-4" />
                   +91-8073294215
@@ -109,11 +109,11 @@ const Footer = () => {
               </div>
               <Link
                 to="/contact"
-                className="inline-block text-sm font-medium text-primary hover:underline mb-4"
+                className="inline-block text-sm font-medium text-red-300 hover:text-rose-900 mb-4"
               >
                 View Full Contact Page →
               </Link>
-              <div className="mt-6 text-sm text-muted-foreground">
+              <div className="mt-6 text-sm text-muted-foreground font-sec">
                 <p className="font-semibold text-foreground mb-2">Organizers:</p>
                 <p>RVITM Cubing Association</p>
                 <p>CubeX RVCE</p>
@@ -122,7 +122,7 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className="border-t border-border pt-8 text-center">
+          <div className="border-t border-border pt-8 text-center font-sec">
             <p className="text-sm text-muted-foreground">
               © {currentYear} RCA. All rights reserved. | RVITM CubeVerse 2025
             </p>
