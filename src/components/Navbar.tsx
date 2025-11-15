@@ -41,14 +41,14 @@ const Navbar = () => {
     <nav
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
         isScrolled
-          ? "bg-white/95 backdrop-blur-xl shadow-lg border-b border-gray-100"
-          : "bg-gradient-to-r from-emerald-50 via-lime-50 to-green-50"
-      } ${isMobileMenuOpen ? "rounded-b-3xl" : "rounded-b-full"}`}
+          ? "bg-white/50 backdrop-blur-1.8xl shadow-xl border-b border-white/20"
+          : "bg-white/40 backdrop-blur-xl border-b border-white/10 shadow-md"
+      } ${isMobileMenuOpen ? "rounded-b-3xl" : "rounded-b-2xl"}`}
     >
       {/* Accent line */}
       <div
         className={`h-0.5 bg-gradient-to-r from-emerald-600 via-green-600  to-lime-600 transition-all duration-500 ${
-          isScrolled ? "opacity-100" : "opacity-0"
+          isScrolled ? "opacity-100" : "opacity-50"
         }`}
       />
 
@@ -57,12 +57,12 @@ const Navbar = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center gap-3 group">
             <div className="relative">
-              <div className=" absolute inset-0 bg-emerald-500/20 rounded-lg blur-md opacity-0 group-hover:opacity-100 transition-all duration-500" />
-              <div className="relative  bg-white rounded-3xl  shadow-sm p-1.5 group-hover:shadow-md transition-all duration-300">
+              <div className="absolute inset-0 bg-emerald-500/20 rounded-lg blur-md opacity-0 group-hover:opacity-100 transition-all duration-500" />
+              <div className="relative bg-white/80 backdrop-blur-sm rounded-3xl shadow-sm p-1.5 group-hover:shadow-md transition-all duration-300 border border-white/50">
                 <img
                   src={rcaLogo}
                   alt="RCA"
-                  className="h-8 w-8 lg:h-10 lg:w-10 object-contain  "
+                  className="h-8 w-8 lg:h-10 lg:w-10 object-contain"
                 />
               </div>
             </div>
@@ -133,8 +133,8 @@ const Navbar = () => {
               : "opacity-0 -translate-y-2 pointer-events-none"
           }`}
         >
-          <div className="mx-3 mt-2 bg-white rounded-xl shadow-xl border border-emerald-100 backdrop-blur-md overflow-hidden">
-            <div className="py-3 divide-y divide-emerald-50">
+          <div className="mx-3 mt-2 bg-white/60 backdrop-blur-2xl rounded-xl shadow-xl border border-white/20 overflow-hidden">
+            <div className="py-3 divide-y divide-emerald-50/50">
               {navLinks.map((link, index) =>
                 link.type === "link" ? (
                   <Link

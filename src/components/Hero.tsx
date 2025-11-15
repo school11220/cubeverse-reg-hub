@@ -64,7 +64,7 @@ const Hero = () => {
                 WCA
                 <br />
                 <span className="text-5xl sm:text-6xl md:text-7xl bg-gradient-to-r from-rose-600 via-pink-500 to-blue-900 bg-clip-text text-transparent">
-                  OFFICIAL EVENT..
+                  OFFICIAL EVENT
                 </span>
               </h1>
 
@@ -80,10 +80,10 @@ const Hero = () => {
                   </div>
                   <div>
                     <div className="text-xl sm:text-2xl font-bold text-gray-900 font-sec">
-                      REGISTER
+                      REGISTER NOW
                     </div>
                     <div className="text-lg sm:text-xl font-bold text-gray-900 font-sec">
-                      ONLINE!
+                      ONLINE
                     </div>
                   </div>
                 </div>
@@ -100,7 +100,7 @@ const Hero = () => {
                 className="block w-full bg-gray-900 text-white rounded-xl py-3 sm:py-4 px-5 sm:px-6 font-bold text-center hover:bg-gray-800 transition-all duration-300 shadow-lg hover:shadow-xl rotate-2 transform hover:scale-105"
               >
                 <div className="flex items-center justify-between">
-                  <span className="text-base sm:text-lg font-sec">REGISTER</span>
+                  <span className="text-base sm:text-lg font-sec">REGISTER NOW</span>
                   <span className="text-xl sm:text-2xl">→</span>
                 </div>
               </a>

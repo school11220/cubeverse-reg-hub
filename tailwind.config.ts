@@ -86,10 +86,10 @@ export default {
         "accordion-up": "accordion-up 0.2s ease-out",
       },
       fontFamily: {
-            'Main': ["Play", 'sans-serif'],
-            'Main2':["Permanent Marker", "cursive"],
-            'sec':["Lexend", "sans-serif"],
-            'sec2':["Roboto", "sans-serif"], // Replace with your font name and a fallback
+            'Main': ["Montserrat", 'sans-serif'],
+            'Main2':["Poppins", "sans-serif"],
+            'sec':["Inter", "sans-serif"],
+            'sec2':["Roboto", "sans-serif"],
           },
     },
   },
